@@ -1,0 +1,102 @@
+/* Add your custom CSS styles here */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://i.pinimg.com/564x/6d/a6/c8/6da6c86b869ceea3943a5b546a99a9c0.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.header-container h1 {
+  font-size: 36px;
+  margin-bottom: 5px;
+}
+
+.sub-heading {
+  font-size: 14px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+.outer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%; /* Adjust width as needed */
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 10px; /* Adjust padding to accommodate inner container border */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Lowered opacity */
+  background-color: #fff0f0;
+}
+
+.login-container {
+  width: 100%; /* Adjust width as needed */
+  max-width: 380px; /* Adjust max-width to leave space for inner container border */
+  padding: 20px; /* Adjust padding to add space between inner and outer containers */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Lowered opacity */
+  background-color: #f0f0ff;
+}
+
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+button {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+a {
+  color: #007bff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.loading-prompt {
+  margin-top: 20px;
+}
+
+.terms-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.terms {
+  font-size: 12px;
+}
